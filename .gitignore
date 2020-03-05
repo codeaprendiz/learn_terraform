@@ -3,3 +3,5 @@
 .aws-credentials
 .terraform
 *.tfstate
+*.tfstate.backup
+
