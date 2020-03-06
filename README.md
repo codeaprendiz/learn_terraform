@@ -1,6 +1,6 @@
 # terraform-kitchen
 
-
+- Basic Commands
 ```bash
 terraform init
 
@@ -19,3 +19,5 @@ terraform plan -out out.terraform
 # Only apply the changes saved in outfile
 terraform apply out.terraform
 ```
+
+
