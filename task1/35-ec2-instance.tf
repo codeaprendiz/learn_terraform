@@ -1,4 +1,6 @@
 // Once everything is ready, let us start an EC2 instance within our public subnet with created key pair and security group.
+
+//Login with ec2_user@PUBLIC_IP
 resource "aws_instance" "testInstance" {
   ami           = var.instance_ami
   instance_type = var.instance_type
