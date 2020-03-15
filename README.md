@@ -1,6 +1,5 @@
 # terraform-kitchen
 
-
 - Basic Commands
 ```bash
 terraform init
