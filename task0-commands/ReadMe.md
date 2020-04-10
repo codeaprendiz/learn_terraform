@@ -4,7 +4,7 @@
 - [destroy](#destroy)
 - [init](#init)
 - [plan](#plan)
-    - [-f](#-f)
+    - [-o](#-o)
     - [-o](#-oh)
 
 - [logs](#logs)
@@ -56,7 +56,7 @@ $ terraform init
 ```bash
 $ terraform plan
 ```
-### -f
+### -o
 - Begin streaming the logs of the ruby container in pod web-1
 ```bash
 kubectl logs -f -c ruby web-1
