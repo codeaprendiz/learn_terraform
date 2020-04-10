@@ -63,7 +63,6 @@ kubectl logs -f -c ruby web-1
 ```
 
 ### -o
-
 - The path to save the generated execution plan
 ```bash
 terraform plan -out out.terraform
