@@ -4,7 +4,7 @@
 - [destroy](#destroy)
 - [init](#init)
 - [plan](#plan)
-    - [-out=path](#-out)
+    - [-out](#-out)
   
 
 ## apply
@@ -50,7 +50,7 @@ $ terraform init
 ```bash
 $ terraform plan
 ```
-### -out=path
+### -out
 - The path to save the generated execution plan
 ```bash
 terraform plan -out out.terraform
