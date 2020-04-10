@@ -14,12 +14,30 @@
 
 - Download the `credentials.csv` containing `Access key ID` and `Secret access key`
 
-- Finally export the values of `Access key ID` and `Secret access key` as showing below in your 
-current shell.
+- These values can be used in the following ways
 
-```bash
-export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
-export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
-```
-
-- Now you can run the `terrform` commands in the same shell session.
+    1) Export the values of `Access key ID` and `Secret access key` as showing below in your 
+       current shell.
+        
+        ```bash
+        export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+        export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
+        ```
+        
+        - Now you can run the `terrform` commands in the same shell session.
+        
+     2) Add these values to the file `terraform.tfvars` in project directory DEFINATELY ADD IT TO `.gitignore` 
+        file. NEVER NEVER NEVER commit `terraform.tfvars` this file to git repository (as it contains you access
+        key id and secret access key)
+        
+        ```bash
+        $ cat terraform.tfvars           
+        AWS_ACCESS_KEY = "YOUR_ACCESS_KEY_ID"
+        AWS_SECRET_KEY = "YOUR_SECRET_ACCESS_KEY"      
+        ```
+        
+        - Now while running `terraform` commands you will have to pass this file as argument at the end like 
+        shown below
+        ```bash
+        $ terraform apply -var-file=../../terraform.tfvars
+        ```
