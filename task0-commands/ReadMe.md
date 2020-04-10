@@ -4,6 +4,7 @@
 - [destroy](#destroy)
 - [init](#init)
 - [plan](#plan)
+    - [-f](#-f)
     - [-o](#-oh)
 
 - [logs](#logs)
@@ -55,6 +56,12 @@ $ terraform init
 ```bash
 $ terraform plan
 ```
+### -f
+- Begin streaming the logs of the ruby container in pod web-1
+```bash
+kubectl logs -f -c ruby web-1
+```
+
 ### -o
 
 - The path to save the generated execution plan
