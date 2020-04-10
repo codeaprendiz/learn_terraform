@@ -4,14 +4,8 @@
 - [destroy](#destroy)
 - [init](#init)
 - [plan](#plan)
-    - [-o](#-o)
-    - [-o](#-oh)
-
-- [logs](#logs)
-    - [since](#since)
-    - [-f](#-f)
-
-
+    - [-out](#-out)
+  
 
 ## apply
 [apply](https://www.terraform.io/docs/commands/apply.html)
@@ -56,35 +50,10 @@ $ terraform init
 ```bash
 $ terraform plan
 ```
-### -o
+### -out
 - The path to save the generated execution plan
 ```bash
 terraform plan -out out.terraform
-```
-
-### -o
-- The path to save the generated execution plan
-```bash
-terraform plan -out out.terraform
-```
-
-## logs
-[logs](https://kubernetes.io/docs/reference/generated/kubectl/kubectl-commands#logs)
-### since
-- To get the output of logs of a given resource like 'pod' since last one hour
-```bash
-KUBECONFIG=$HOME/kubernetes/kubeconfig kubectl logs --since=1h module-5c8986fb69-8jvwx -n backend
-```
-
-### -f
-- Begin streaming the logs of the ruby container in pod web-1
-```bash
-kubectl logs -f -c ruby web-1
-```
-
-- Begin streaming the logs from all containers in pods defined by label app=nginx
-```bash
-kubectl logs -f -lapp=nginx --all-containers=true
 ```
 
 
