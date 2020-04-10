@@ -57,9 +57,9 @@ $ terraform init
 $ terraform plan
 ```
 ### -o
-- Begin streaming the logs of the ruby container in pod web-1
+- The path to save the generated execution plan
 ```bash
-kubectl logs -f -c ruby web-1
+terraform plan -out out.terraform
 ```
 
 ### -o
