@@ -13,3 +13,11 @@
 ![](.ReadMe_images/review_screen.png)
 
 - Download the `credentials.csv` containing `Access key ID` and `Secret access key`
+
+- Finally export the values of `Access key ID` and `Secret access key` as showing below in your 
+current shell.
+
+```bash
+export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
+export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
+```
