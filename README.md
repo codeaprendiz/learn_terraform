@@ -8,4 +8,7 @@
 - [default vpc, subnet, security group, keypair, ec2](aws/task1-defaultVPC-sbnt-sg-kp-ec2)
 - [custom vpc, subnet, route table, security group, ec2](aws/task2-customVPC-igw-sbnt-rt-sg-kp-ec2)
 
+### Frequently visited
+- [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
+
 
