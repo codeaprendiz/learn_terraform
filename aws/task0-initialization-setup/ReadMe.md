@@ -21,3 +21,5 @@ current shell.
 export AWS_ACCESS_KEY_ID=YOUR_ACCESS_KEY_ID
 export AWS_SECRET_ACCESS_KEY=YOUR_SECRET_ACCESS_KEY
 ```
+
+- Now you can run the `terrform` commands in the same shell session.
