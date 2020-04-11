@@ -1,5 +1,7 @@
 ## OBJECTIVE : 
-- To create an EC2 instance.
+- To create an EC2 instance using resource 
+- To use the data source [aws_ami](https://www.terraform.io/docs/providers/aws/d/ami.html) to get the AMI ID
+of the instance we want to create
 
 
 

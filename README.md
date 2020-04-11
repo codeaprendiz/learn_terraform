@@ -5,7 +5,7 @@
 ## AWS
 
 - [initialization](aws/task-000-initialization-setup)
-- [vars, provider, ec2](aws/task-001-vars-provider-ec2)
+- [vars, provider, ec2](aws/task-001-vars-provider-ec2-dataSources)
 - [default vpc, subnet, security group, keypair, ec2](aws/task-002-defaultVPC-sbnt-sg-kp-ec2)
 - [default vpc, subnet, security group, keypair, ec2, script](aws/task-003-defaultVPC-kp-sbnt-sg-ec2-script)
 - [vars, provider, ec2, output](aws/task-004-vars-provider-ec2-output)
