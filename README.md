@@ -1,6 +1,7 @@
 # terraform-kitchen
 
 - [commands](task-000-commands/ReadMe.md)
+- [terraform doc references](task-001-doc-references/ReadMe.md)
 
 ## AWS
 
