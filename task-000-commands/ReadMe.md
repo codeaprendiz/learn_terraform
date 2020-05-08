@@ -2,9 +2,13 @@
 
 - [apply](#apply)
 - [destroy](#destroy)
+- [graph](#graph)
 - [init](#init)
 - [plan](#plan)
     - [-out](#-out)
+- [refresh](#refresh)
+- [show](#show)
+- [taint & untaint](#taint)
   
 
 ## apply
@@ -35,6 +39,31 @@ $ terraform apply out.terraform
 $ terraform destroy
 ```
 
+
+
+## graph
+[graph](https://www.terraform.io/docs/commands/graph.html)
+- To generate a visual representation of either a configuration or execution plan
+- `->` will symbolise a relationship
+```bash
+$ terraform graph                     
+digraph {
+        compound = "true"
+        newrank = "true"
+        subgraph "root" {
+                "[root] aws_default_subnet.default_az1" [label = "aws_default_subnet.default_az1", shape = "box"]
+                "[root] aws_default_vpc.default" [label = "aws_default_vpc.default", shape = "box"]
+.
+.
+.
+                "[root] root" -> "[root] provisioner.file (close)"
+                "[root] root" -> "[root] provisioner.remote-exec (close)"
+        }
+}
+
+```
+
+
 ## init
 [init](https://www.terraform.io/docs/commands/init.html)
 
@@ -54,6 +83,85 @@ $ terraform plan
 - The path to save the generated execution plan
 ```bash
 terraform plan -out out.terraform
+```
+
+## refresh
+[refresh](https://www.terraform.io/docs/commands/refresh.html)
+
+- The terraform refresh command is used to reconcile the state Terraform knows about 
+(via its state file) with the real-world infrastructure. This can be used to detect any drift from the last-known state, and to update the state file.
+
+```bash
+$ terraform refresh -var-file=../../terraform.tfvars
+aws_key_pair.mykey: Refreshing state... [id=mykey]
+aws_default_vpc.default: Refreshing state... [id=vpc-62320e18]
+aws_default_subnet.default_az1: Refreshing state... [id=subnet-3857b819]
+data.aws_ami.ubuntu: Refreshing state...
+aws_security_group.sg_22: Refreshing state... [id=sg-0f148e80e2263d39d]
+aws_instance.web: 
+```
+
+
+## show
+[show](https://www.terraform.io/docs/commands/show.html)
+
+- To show the current terraform state. (Usually executed after `terraform init` and `terraform apply`)
+```bash
+$ terraform show
+# aws_default_subnet.default_az1:
+resource "aws_default_subnet" "default_az1" {
+    arn                             = "arn:aws:ec2:us-east-1:218153901974:subnet/subnet-3857b819"
+    assign_ipv6_address_on_creation = false
+.
+.
+.
+        values = [
+            "hvm",
+        ]
+    }
+}
+```
+
+## taint
+[taint](https://www.terraform.io/docs/commands/taint.html)
+
+- Suppose you have got resources after executing `terraform init` and `terraform plan`. Now you want to REPLACE 
+one of the RESOURCES like key-pair which is made like this
+```hcl-terraform
+resource "aws_key_pair" "mykey" {
+  key_name   = "mykey"
+  public_key = file(var.PATH_TO_PUBLIC_KEY)
+}
+```
+
+```bash
+$ terraform taint aws_key_pair.mykey
+Resource instance aws_key_pair.mykey has been marked as tainted.
+``` 
+
+```bash
+terraform plan -var-file=../../terraform.tfvars
+.
+.
+.
+Terraform will perform the following actions:
+
+  # aws_key_pair.mykey is tainted, so must be replaced
+-/+ resource "aws_key_pair" "mykey" {
+      ~ fingerprint = "24:f6:e5:e0:4e:e9:db:3e:93:f4:a0:ed:1c:0b:52:31" -> (known after apply)
+      ~ id          = "mykey" -> (known after apply)
+        key_name    = "mykey"
+      ~ key_pair_id = "key-013a2ee21d0df0283" -> (known after apply)
+        public_key  = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDLmviSRpF6tvGLpMExQZ94I9mqhVtINyjH1rEeDwSPB+1v00P608klF++uhRvREUyNID/i2w1cwjOi9H1isoZNoVaSKdiVIqEIp2HaIhTtKTo+NqVCdIeQXnwK2bS/OeIVScYn6YZjPAcWgMk0GH1q9zIn+sz1own3QxD4qysvoqN5bD9BxsDboLxKw803jJlcjRiSrdWbmEOoIXrEbv9t99ZxsYLIDIDZJskiAcvqKEywt+dRpvM/49c3pJ5JVluNNJypTObM2GI4piC1TcOL6xMgs+UsbDgEsHPYHXZnYENX/GGXYJcdDITCtMHap8O33EvOh5piIXHF6kQEgXDRCE61AEWnHQeGERJtTqlCiBAUUDNzAHt9UjZJVmioLJ+vLeW9M3KjUCh5MWxZ7hIJ7xvLxermNlRahzTlaGLhvkiyoaUyuh+qhpBIfCv7lioLaagv9jegc6AErMqDGFgPieJh479z+QqagPODwP0UB0jt07b7V/3csImEiy1aKY2wOQriXCkcAnSvKuAuiT2a2gOfPMJlzVd8hLrA2f5YuLWLm8p8rLXvkNSJ8YKNbQx1z5pII9R54YEOixjgp9bDNJL39ekrxlzLj72gpWg+AF+FFVNJ4gfZDjBSxUbkPhox7jhIV4DOCvc6W5uLkCXe62R9aNn1/Hkxcq99eoen1w== codeaprendiz@gmail.com"
+      - tags        = {} -> null
+    }
+
+Plan: 1 to add, 0 to change, 1 to destroy.
+```
+
+```bash
+$ terraform untaint aws_key_pair.mykey           
+Resource instance aws_key_pair.mykey has been successfully untainted.
 ```
 
 
