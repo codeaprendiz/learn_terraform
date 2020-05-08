@@ -1,10 +1,14 @@
+## Objective
+- Default VPC and Default Availability Zones (a, b, c) created
+- Using a [module](https://www.terraform.io/docs/configuration/modules.html) in terraform. 
+The module will take some inputs and achieve some functionality. 
 
 - Generate the keys (the ones commited are for sample only)
 ```bash
 $ ssh-keygen -f mykey
 ```
 
-
+- Run the following to download the module to your local
 ```bash
 $ terraform get        
 Downloading github.com/wardviaene/terraform-consul-module.git?ref=terraform-0.12 for consul...
@@ -40,7 +44,6 @@ $ tree
 - Plan
 ```bash
 terraform plan -var-file=../../terraform.tfvars
-
 ```
 
 - Apply
@@ -59,3 +62,6 @@ ubuntu@ip-172-31-39-91:~$
 
 
 - Destroy
+```bash
+terraform destroy -var-file=../../terraform.tfvars
+```

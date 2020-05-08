@@ -4,8 +4,7 @@
     - [aws_ami](https://www.terraform.io/docs/providers/aws/d/ami.html)
 - [provider](https://www.terraform.io/docs/providers/index.html)
     - [aws](https://www.terraform.io/docs/providers/aws/index.html)
-- variables
-    - [input variables](https://www.terraform.io/docs/configuration/variables.html)
+- [modules](https://www.terraform.io/docs/configuration/modules.html)
 - [resources](https://www.terraform.io/docs/configuration/resources.html)
     - [aws_default_subnet](https://www.terraform.io/docs/providers/aws/r/default_subnet.html)
     - [aws_default_vpc](https://www.terraform.io/docs/providers/aws/r/default_vpc.html)
@@ -15,6 +14,8 @@
     - [aws_route_table](https://www.terraform.io/docs/providers/aws/r/route_table.html)
     - [aws_route_table_association](https://www.terraform.io/docs/providers/aws/r/route_table_association.html)
     - [aws_security_group](https://www.terraform.io/docs/providers/aws/r/security_group.html)
+- variables
+    - [input variables](https://www.terraform.io/docs/configuration/variables.html)
 
 
 

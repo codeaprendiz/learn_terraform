@@ -1,3 +1,8 @@
+//After you run 'terraform get' the module will get downloaded in .terraform directory
+// Note that the module requires a set of input variables like key_name, key_path etc, does the task. You can output values as well.
+
+
+
 module "consul" {
   source   = "github.com/wardviaene/terraform-consul-module.git?ref=terraform-0.12"
   key_name = aws_key_pair.mykey.key_name
