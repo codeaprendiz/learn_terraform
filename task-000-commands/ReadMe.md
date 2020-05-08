@@ -2,7 +2,9 @@
 
 - [apply](#apply)
 - [destroy](#destroy)
+- [fmt](#fmt)
 - [graph](#graph)
+- [import](#import)
 - [init](#init)
 - [plan](#plan)
     - [-out](#-out)
@@ -39,6 +41,15 @@ $ terraform apply out.terraform
 $ terraform destroy
 ```
 
+## fmt
+[fmt](https://www.terraform.io/docs/commands/fmt.html)
+
+- The terraform fmt command is used to rewrite Terraform configuration files to a canonical format and style
+
+```bash
+$ terraform fmt 25-instance.tf 
+25-instance.tf
+```
 
 
 ## graph
@@ -63,6 +74,17 @@ digraph {
 
 ```
 
+## import
+[import](https://www.terraform.io/docs/commands/import.html)
+
+- The terraform import command is used to import existing resources into Terraform.
+- Support you local terraform state differs from remote state. In the remote state you have on VM added externally.
+You want to import that into the existing state.
+- This will sync the local terraform.tfstate file with that of remote. However, you will need to create the corresponding resource files (*.tf) by yourself.
+> terraform import aws_instance.<name> <id-of-instance-from-console-aws>
+```bash
+terraform import aws_instance.example i-1246434554345
+```
 
 ## init
 [init](https://www.terraform.io/docs/commands/init.html)
