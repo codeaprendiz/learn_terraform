@@ -12,6 +12,7 @@
 - [task-004, vars, provider, ec2, output](aws/task-004-vars-provider-ec2-output)
 - [task-005, vars, provider, ec2, terraformRemoteStateInS3](aws/task-005-vars-provider-ec2-remoteStateInS3)
 - [task-006-defaultVPC-defaultSbnt-modules-kp](aws/task-006-defaultVPC-defaultSbnt-modules-kp)
+- [task-007](to-be-continued)
 - [custom vpc, subnet, route table, security group, ec2](aws/task-100-customVPC-igw-sbnt-rt-sg-kp-ec2)
 
 ### Frequently visited
