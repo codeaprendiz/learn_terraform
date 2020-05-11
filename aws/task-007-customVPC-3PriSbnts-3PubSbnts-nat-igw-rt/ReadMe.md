@@ -11,14 +11,11 @@
 
 ## Lets Begin
 
-- create keys
-```bash
-ssh-keygen -f mykey 
-```
+
 
 - init
 ```bash
-
+terraform init
 ```
 
 - plan
