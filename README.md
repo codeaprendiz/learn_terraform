@@ -12,8 +12,9 @@
 - [task-004, vars, provider, ec2, output](aws/task-004-vars-provider-ec2-output)
 - [task-005, vars, provider, ec2, terraformRemoteStateInS3](aws/task-005-vars-provider-ec2-remoteStateInS3)
 - [task-006-defaultVPC-defaultSbnt-modules-kp](aws/task-006-defaultVPC-defaultSbnt-modules-kp)
-- [task-007-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt](aws/task-007-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt)
-- [custom vpc, subnet, route table, security group, ec2](aws/task-100-customVPC-igw-sbnt-rt-sg-kp-ec2)
+- [task-007-customVPC-igw-sbnt-rt-sg-kp-ec2](aws/task-007-customVPC-igw-sbnt-rt-sg-kp-ec2)
+- [task-008-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt](aws/task-008-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt)
+- [task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2](aws/task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
