@@ -14,7 +14,7 @@
 - [task-006-defaultVPC-defaultSbnt-modules-kp](aws/task-006-defaultVPC-defaultSbnt-modules-kp)
 - [task-007-customVPC-igw-sbnt-rt-sg-kp-ec2](aws/task-007-customVPC-igw-sbnt-rt-sg-kp-ec2)
 - [task-008-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt](aws/task-008-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt)
-- [task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2](aws/task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2)
+- [task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs](aws/task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)

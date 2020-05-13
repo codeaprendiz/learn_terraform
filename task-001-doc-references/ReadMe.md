@@ -8,6 +8,7 @@
 - [resources](https://www.terraform.io/docs/configuration/resources.html)
     - [aws_default_subnet](https://www.terraform.io/docs/providers/aws/r/default_subnet.html)
     - [aws_default_vpc](https://www.terraform.io/docs/providers/aws/r/default_vpc.html)
+    - [aws_ebs_volume](https://www.terraform.io/docs/providers/aws/r/ebs_volume.html)
     - [aws_eip](https://www.terraform.io/docs/providers/aws/r/eip.html)
     - [aws_instance](https://www.terraform.io/docs/providers/aws/r/instance.html)
     - [aws_internet_gateway](https://www.terraform.io/docs/providers/aws/r/internet_gateway.html)
@@ -17,6 +18,7 @@
     - [aws_route_table_association](https://www.terraform.io/docs/providers/aws/r/route_table_association.html)
     - [aws_security_group](https://www.terraform.io/docs/providers/aws/r/security_group.html)
     - [aws_subnet](https://www.terraform.io/docs/providers/aws/r/subnet.html)
+    - [aws_volume_attachment](https://www.terraform.io/docs/providers/aws/r/volume_attachment.html)    
     - [aws_vpc](https://www.terraform.io/docs/providers/aws/r/vpc.html)
 - variables
     - [input variables](https://www.terraform.io/docs/configuration/variables.html)
