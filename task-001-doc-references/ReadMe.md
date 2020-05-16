@@ -2,6 +2,8 @@
 
 - [data sources](https://www.terraform.io/docs/configuration/data-sources.html)
     - [aws_ami](https://www.terraform.io/docs/providers/aws/d/ami.html)
+    - [template_cloudinit_config](https://www.terraform.io/docs/providers/template/d/cloudinit_config.html)
+    - [template_file](https://www.terraform.io/docs/providers/template/d/file.html)
 - [provider](https://www.terraform.io/docs/providers/index.html)
     - [aws](https://www.terraform.io/docs/providers/aws/index.html)
 - [modules](https://www.terraform.io/docs/configuration/modules.html)
