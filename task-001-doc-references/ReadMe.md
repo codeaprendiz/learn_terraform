@@ -16,6 +16,8 @@
     - [aws_internet_gateway](https://www.terraform.io/docs/providers/aws/r/internet_gateway.html)
     - [aws_key_pair](https://www.terraform.io/docs/providers/aws/r/key_pair.html)
     - [aws_nat_gateway](https://www.terraform.io/docs/providers/aws/r/nat_gateway.html)
+    - [aws_route53_zone](https://www.terraform.io/docs/providers/aws/r/route53_zone.html)
+    - [aws_route53_record](https://www.terraform.io/docs/providers/aws/r/route53_record.html)
     - [aws_route_table](https://www.terraform.io/docs/providers/aws/r/route_table.html)
     - [aws_route_table_association](https://www.terraform.io/docs/providers/aws/r/route_table_association.html)
     - [aws_security_group](https://www.terraform.io/docs/providers/aws/r/security_group.html)
