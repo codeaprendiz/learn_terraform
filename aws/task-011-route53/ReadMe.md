@@ -1,5 +1,7 @@
 ## Objective 
 
+> NOT WORKING AT THE MOMENT
+
 1) To create A record using resource type aws_route53_record in terraform. The record should resolve to your public IP.
 
 
