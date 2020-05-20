@@ -17,7 +17,7 @@
 - [task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs](aws/task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs)
 - [task-010-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs-withMount/versions.tf](aws/task-010-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs-withMount)
 - [task-011-route53-NOT-WORKING](aws/task-011-route53)
-- [ta](aws/task-012-rds-vpc-ec2)
+- [task-012-rds-vpc-ec2](aws/task-012-rds-vpc-ec2)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
