@@ -15,7 +15,7 @@ $ terraform init
 - Plan
 
 ```                                 
-$ terraform plan -var-file=../../terraform.tfvars
+$ terraform plan 
 .
 .
 .
@@ -28,7 +28,7 @@ Plan: 5 to add, 0 to change, 0 to destroy.
 
 - Apply
 ```bash
-$ terraform apply -var-file=../../terraform.tfvars
+$ terraform apply 
 
 .
 .
@@ -42,4 +42,8 @@ warning = WARNING: make sure you're not using the AdministratorAccess policy for
 
 
 
-
+- Destroy
+```bash
+$ terraform destroy                                 
+Destroy complete! Resources: 5 destroyed.
+```
