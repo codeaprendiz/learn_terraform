@@ -19,6 +19,7 @@
 - [task-011-route53-NOT-WORKING](aws/task-011-route53)
 - [task-012-rds-vpc-ec2](aws/task-012-rds-vpc-ec2)
 - [task-013-IAM](aws/task-013-IAM)
+- [task-014-IAM-roles-s3-upload-to-s3](aws/task-014-IAM-roles-s3-upload-to-s3)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
