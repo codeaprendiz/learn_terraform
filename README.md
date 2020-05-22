@@ -20,6 +20,7 @@
 - [task-012-rds-vpc-ec2](aws/task-012-rds-vpc-ec2)
 - [task-013-IAM](aws/task-013-IAM)
 - [task-014-IAM-roles-s3-upload-to-s3](aws/task-014-IAM-roles-s3-upload-to-s3)
+- [task-015-autoscaling-cloudwatchAlarm-ec2-launchConfiguration](aws/task-015-autoscaling-cloudwatchAlarm-ec2-launchConfiguration)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
