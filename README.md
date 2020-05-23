@@ -22,6 +22,7 @@
 - [task-014-IAM-roles-s3-upload-to-s3](aws/task-014-IAM-roles-s3-upload-to-s3)
 - [task-015-autoscaling-cloudwatchAlarm-ec2-launchConfiguration](aws/task-015-autoscaling-cloudwatchAlarm-ec2-launchConfiguration)
 - [task-016-ELB-autoscaling](aws/task-016-ELB-autoscaling)
+- [task-017-Elastic-Beanstalk](aws/task-017-Elastic-Beanstalk)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
