@@ -1,6 +1,7 @@
-# terraform
+#  terraform COMMANDS
 
 - [apply](#apply)
+- [console](#console)
 - [destroy](#destroy)
 - [fmt](#fmt)
 - [graph](#graph)
@@ -31,6 +32,15 @@ $ terraform apply -var-file=../../terraform.tfvars
 
 ```bash
 $ terraform apply out.terraform
+```
+
+## console
+[console](https://www.terraform.io/docs/commands/console.html)
+
+- The terraform console command provides an interactive console for evaluating expressions.
+  
+```bash
+$ terraform console
 ```
 
 ## destroy
@@ -187,52 +197,7 @@ Resource instance aws_key_pair.mykey has been successfully untainted.
 ```
 
 
-## Test
-test
 
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
 
 
 
