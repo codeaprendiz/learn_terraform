@@ -41,3 +41,14 @@
         ```bash
         $ terraform apply -var-file=../../terraform.tfvars
         ```
+        
+        
+# Configuring AWS CLI
+
+```bash
+$ aws configure                                
+AWS Access Key ID [None]: **********************
+AWS Secret Access Key [None]: ************************
+Default region name [None]: us-east-1
+Default output format [None]: 
+```

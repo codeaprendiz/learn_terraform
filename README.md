@@ -23,6 +23,7 @@
 - [task-015-autoscaling-cloudwatchAlarm-ec2-launchConfiguration](aws/task-015-autoscaling-cloudwatchAlarm-ec2-launchConfiguration)
 - [task-016-ELB-autoscaling](aws/task-016-ELB-autoscaling)
 - [task-017-Elastic-Beanstalk](aws/task-017-Elastic-Beanstalk)
+- [task-018-create-ECR-repo](aws/task-018-create-ECR-repo)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
