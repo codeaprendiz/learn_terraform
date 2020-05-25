@@ -142,7 +142,7 @@ aws_instance.web:
 $ terraform show
 # aws_default_subnet.default_az1:
 resource "aws_default_subnet" "default_az1" {
-    arn                             = "arn:aws:ec2:us-east-1:218153901974:subnet/subnet-3857b819"
+    arn                             = "arn:aws:ec2:us-east-1:****************:subnet/subnet-3857b819"
     assign_ipv6_address_on_creation = false
 .
 .

@@ -16,7 +16,7 @@
 - [task-008-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt](aws/task-008-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt)
 - [task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs](aws/task-009-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs)
 - [task-010-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs-withMount/versions.tf](aws/task-010-customVPC-3PriSbnts-3PubSbnts-nat-igw-rt-ec2-ebs-withMount)
-- [task-011-route53-NOT-WORKING](aws/task-011-route53)
+- [IN-PROGRESS-task-011-route53](aws/task-011-route53)
 - [task-012-rds-vpc-ec2](aws/task-012-rds-vpc-ec2)
 - [task-013-IAM](aws/task-013-IAM)
 - [task-014-IAM-roles-s3-upload-to-s3](aws/task-014-IAM-roles-s3-upload-to-s3)
@@ -24,6 +24,7 @@
 - [task-016-ELB-autoscaling](aws/task-016-ELB-autoscaling)
 - [task-017-Elastic-Beanstalk](aws/task-017-Elastic-Beanstalk)
 - [task-018-create-ECR-repo](aws/task-018-create-ECR-repo)
+- [IN-PROGRESS-task19-ECS](aws/task-019)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
