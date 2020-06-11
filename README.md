@@ -25,6 +25,7 @@
 - [task-017-Elastic-Beanstalk](aws/task-017-Elastic-Beanstalk)
 - [task-018-create-ECR-repo](aws/task-018-create-ECR-repo)
 - [IN-PROGRESS-task19-ECS-example](aws/task-019-ECS)
+- [task-020-s3-iam-using-modules](aws/task-020-s3-iam-using-modules)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
