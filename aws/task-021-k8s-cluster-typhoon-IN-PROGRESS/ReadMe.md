@@ -64,6 +64,10 @@ $ TF_LOG=TRACE terraform apply
 - Route Tables
 ![](.ReadMe_images/route-tables.png)
 
+- Target Groups health check (currently failing)
+
+![](.ReadMe_images/Target-group-health-checks.png)
+
 
 ERROR :( keeps on continuing
 ```bash
