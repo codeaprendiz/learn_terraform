@@ -26,6 +26,7 @@
 - [task-018-create-ECR-repo](aws/task-018-create-ECR-repo)
 - [IN-PROGRESS-task19-ECS-example](aws/task-019-ECS)
 - [task-020-s3-iam-using-modules](aws/task-020-s3-iam-using-modules)
+- [IN-PROGRESS-task-021-k8s-using-typhoon](aws/task-021-k8s-cluster-typhoon-IN-PROGRESS)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
