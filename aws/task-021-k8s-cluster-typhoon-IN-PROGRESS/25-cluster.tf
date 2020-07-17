@@ -3,7 +3,7 @@ module "tempest" {
 
   # AWS
   cluster_name = "k8s118"
-  dns_zone     = "devops.link"
+  dns_zone     = var.dns_zone
   dns_zone_id  = var.zone_id
 
   # configuration
