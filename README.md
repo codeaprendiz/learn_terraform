@@ -27,6 +27,7 @@
 - [IN-PROGRESS-task19-ECS-example](aws/task-019-ECS)
 - [task-020-s3-iam-using-modules](aws/task-020-s3-iam-using-modules)
 - [IN-PROGRESS-task-021-k8s-using-typhoon](aws/task-021-k8s-cluster-typhoon-IN-PROGRESS)
+- [task-022-route53-ec2](aws/task-022-route53-ec2)
 
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
