@@ -4,7 +4,7 @@ variable "AWS_REGION" {
 
 
 variable "dns_zone" {
-  default = "devops.link"
+  default = "k118.tk"
 }
 
 variable "PATH_TO_PRIVATE_KEY" {
@@ -29,5 +29,5 @@ variable "ECS_AMIS" {
 }
 
 variable "zone_id" {
-  default = "Z05864136COJL92HYXZ5"
+  default = "Z099337627DO5QQDVQEVD"
 }

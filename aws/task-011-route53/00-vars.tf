@@ -3,5 +3,5 @@ variable "AWS_REGION" {
 }
 
 variable "domain_mydevops_link" {
-  default = "devops.link"
+  default = "k118.tk"
 }

@@ -16,5 +16,5 @@ module "tempest" {
 
 resource "local_file" "kubeconfig-tempest" {
   content  = module.tempest.kubeconfig-admin
-  filename = "/home/visionary/workspace/terraform-kitchen/aws/task-021-k8s-cluster-typhoon/auth/tempest-config"
+  filename = "/home/visionary/workspace/terraform-kitchen/aws/task-021-k8s-cluster-typhoon/auth/kubeconfig"
 }
