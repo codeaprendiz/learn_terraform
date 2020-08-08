@@ -1,6 +1,7 @@
 ## Objective: To create a kubernetes cluster using typhoon
 
 [Link Referred](https://typhoon.psdn.io/flatcar-linux/aws/)
+
 [Git Repo](https://github.com/poseidon/typhoon/)
 
 ### Steps
