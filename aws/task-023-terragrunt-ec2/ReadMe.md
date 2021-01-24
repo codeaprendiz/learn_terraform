@@ -34,3 +34,10 @@ $ ./run.sh apply
 .
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 ```
+
+- Destroy the changes
+```bash
+$ ./run.sh destroy
+.
+Destroy complete! Resources: 1 destroyed.
+```
