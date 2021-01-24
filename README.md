@@ -29,6 +29,11 @@
 - [task-021-k8s-using-typhoon](aws/task-021-k8s-cluster-typhoon)
 - [task-022-route53-ec2](aws/task-022-route53-ec2)
 
+### Terragrunt Implementation
+
+- [task-023-terragrunt-ec2](aws/task-023-terragrunt-ec2)
+
+
 ### Frequently visited
 - [Amazon EC2 AMI Locator](http://cloud-images.ubuntu.com/locator/ec2/)
 
