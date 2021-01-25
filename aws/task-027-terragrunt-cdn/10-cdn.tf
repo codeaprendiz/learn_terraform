@@ -13,7 +13,7 @@ module "cf-s3-test" {
   ipv6_enabled        = true
 
   parent_zone_id           = var.public_hosted_zone_id
-  acm_certificate_arn      = "arn:aws:acm:us-east-1:218153901974:certificate/0f5d4d59-086a-4497-9051-58c8a5a5360f"
+  acm_certificate_arn      = var.private_certificate_arn
   use_regional_s3_endpoint = true
   origin_force_destroy     = true
   cors_allowed_headers = [

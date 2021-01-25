@@ -7,7 +7,6 @@ variable "public_hosted_zone_id" {
   description = "ID of the Public Hosted Zone"
   type        = string
   sensitive   = true
-  default = "Z01721142YH3G3KSY0SJJ"
 }
 
 
