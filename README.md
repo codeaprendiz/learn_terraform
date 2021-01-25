@@ -28,10 +28,12 @@
 - [task-020-s3-iam-using-modules](aws/task-020-s3-iam-using-modules)
 - [task-021-k8s-using-typhoon](aws/task-021-k8s-cluster-typhoon)
 - [task-022-route53-ec2](aws/task-022-route53-ec2)
+- [task-024-certificate-manager](aws/task-024-certificate-manager)
 
 ### Terragrunt Implementation
 
 - [task-023-terragrunt-ec2](aws/task-023-terragrunt-ec2)
+- [task-025-terragrunt-iam-user](aws/task-025-terragrunt-iam-user)
 
 
 ### Frequently visited
