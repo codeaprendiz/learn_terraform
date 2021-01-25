@@ -59,15 +59,15 @@ s3-user-test-username = "backend-dev-test"
 
 ### Screenshots
 
-![](.https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_home.png)
+![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_home.png)
 
-![](.https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_general_tab.png)
+![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_general_tab.png)
 
-![](.https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_origin_and_origin_groups.png)
+![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_origin_and_origin_groups.png)
 
-![](.https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_behaviour.png)
+![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_behaviour.png)
 
-![](.https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_its_working.png)
+![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_its_working.png)
 
 - You can also validate using the curl command
 ```bash
