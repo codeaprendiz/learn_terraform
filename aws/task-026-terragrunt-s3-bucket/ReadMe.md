@@ -1,5 +1,39 @@
 #### We will create S3 bucket using cloudposse module. We will also have IAM user which will have admin priviledges on S3 bucket
 
+- Terraform and Terragrunt versions
+```bash
+$ terraform --version
+Terraform v0.14.4
+
+Your version of Terraform is out of date! The latest version
+is 0.14.5. You can update by downloading from https://www.terraform.io/downloads.html
+
+$ terragrunt -version
+terragrunt version v0.27.1
+```
+
+
+- Run the following. Initialization
+```bash
+$ chmod 755 run.sh          
+$ ./run.sh init
+```
+
+- Plan
+```bash
+$ ./run.sh plan
+```
+
+- Applying the changes
+```bash
+$ ./run.sh apply
+```
+
+- Destroy the changes
+```bash
+$ ./run.sh destroy
+```
+
 
 - Uploading object
 ```bash

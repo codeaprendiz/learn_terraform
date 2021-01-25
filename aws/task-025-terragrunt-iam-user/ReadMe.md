@@ -13,6 +13,28 @@ $ terragrunt -version
 terragrunt version v0.27.1
 ```
 
+
+- Run the following. Initialization
+```bash
+$ chmod 755 run.sh          
+$ ./run.sh init
+```
+
+- Plan
+```bash
+$ ./run.sh plan
+```
+
+- Applying the changes
+```bash
+$ ./run.sh apply
+```
+
+- Destroy the changes
+```bash
+$ ./run.sh destroy
+```
+
 - List objects in bucket
 ```bash
 $ AWS_ACCESS_KEY_ID=<access-key-id> AWS_SECRET_ACCESS_KEY=<secret-access-key> aws s3 ls s3://test-dev-backup-bucket
