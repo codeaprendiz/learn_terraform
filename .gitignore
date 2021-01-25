@@ -7,4 +7,5 @@
 *.tfstate.backup
 *.terraform.tfstate.lock.info
 credentials.txt
+.terraform.lock.hcl
 
