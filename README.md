@@ -2,6 +2,7 @@
 
 - [commands](task-000-commands/ReadMe.md)
 - [terraform doc references](task-001-doc-references/ReadMe.md)
+- [task-002-tutorial-links](task-002-tutorial-links/ReadMe.md)
 
 ## AWS
 
