@@ -14,5 +14,4 @@ variable "private_certificate_arn" {
   description = "ARN of the private certificate issued by AWS Certificate Manager"
   type        = string
   sensitive   = true
-  default = "arn:aws:acm:us-east-1:218153901974:certificate/e93b7027-a151-4f63-a8f1-fafdae13a93c"
 }
