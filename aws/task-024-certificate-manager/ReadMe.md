@@ -1,7 +1,7 @@
 ### Objective : Create a private certificate for your Domain using AWS Certificate Manager
 
 #### PRE-REQUISITE
-- You own a domain for example in following case I own - ``
+- You own a domain for example in following case I own - `ankitrathi.info`
 ![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-024-certificate-manager/route53_dashboard.png)
 
 ![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-024-certificate-manager/route53_dashboard_registered_domains.png)
