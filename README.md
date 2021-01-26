@@ -36,7 +36,7 @@
 - [task-023-terragrunt-ec2](aws/task-023-terragrunt-ec2)
 - [task-025-terragrunt-iam-user](aws/task-025-terragrunt-iam-user)
 - [task-026-terragrunt-s3-bucket](aws/task-026-terragrunt-s3-bucket)
-- [task-027-terragrunt-cdn](aws/task-027-terragrunt-cdn)
+- [task-027-terragrunt-cdn](aws/task-027-terragrunt-cdn/ReadMe.md)
 
 
 ### Frequently visited
