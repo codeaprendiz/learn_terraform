@@ -67,7 +67,6 @@ s3-user-test-username = "backend-dev-test"
 
 ![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_behaviour.png)
 
-![](https://github.com/codeaprendiz/_assets/blob/master/terraform-kitchen/task-027-terragrunt-cdn/cdn_its_working.png)
 
 - You can also validate using the curl command
 ```bash
