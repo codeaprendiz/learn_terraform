@@ -4,7 +4,7 @@
 - Update values of in `secret.tfvars` as per your configuration (take reference from secret.tfvars.example)
 - [Hosted Zone (default hosted zone would do)](../task-011-route53)
 - You should own a domain (like in this case I own `ankitrathi.info`)
-- [Create a private Certificate for your domain](../task-024-certificate-manager)
+- [Create a private Certificate for your domain in us-east-1](../task-024-certificate-manager)
 
 
 #### Let's Begin
